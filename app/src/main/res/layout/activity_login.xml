@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="또 왔어요!"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="#DB685B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="처음 왔어요!"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="#DB685B" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

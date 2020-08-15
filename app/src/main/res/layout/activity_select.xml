@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Select.SelectActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="이 기기는 누구의 것인가요?"
+        android:textColor="#3A3939"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:shadowColor="#FFFFFF"
+        android:text="부     모"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorLink="#00FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#DB685B" />
+
+    <Button
+        android:id="@+id/btnChild"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="자     녀"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#DB685B" />
+
+</LinearLayout>
