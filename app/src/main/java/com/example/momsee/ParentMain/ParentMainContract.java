@@ -1,8 +1,8 @@
-package com.example.momsee.ChildLogin;
+package com.example.momsee.ParentMain;
 
 import com.example.momsee.BaseContract;
 
-public interface ChildLoginContract {
+public interface ParentMainContract {
     interface View extends BaseContract.View {
     }
 
@@ -12,4 +12,3 @@ public interface ChildLoginContract {
         void setView(View view);
     }
 }
-
