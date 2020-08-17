@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Register.RegisterActivity"></activity>
+        <activity android:name=".ChildMain.TabFragment2"></activity>
+        <activity android:name=".ChildMain.TabFragment1" />
+        <activity android:name=".ChildMain.ChildMainActivity" />
+        <activity android:name=".ParentMain.ParentMainActivity" />
+        <activity android:name=".Register.RegisterActivity" />
         <activity android:name=".ChildLogin.ChildLoginActivity" />
         <activity android:name=".Select.SelectActivity" />
         <activity android:name=".Login.LoginActivity">
